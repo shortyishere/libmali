@@ -33,6 +33,10 @@ INSTALL(FILES
 DESTINATION "${CMAKE_INSTALL_LIBDIR}")
 
 INSTALL(FILES
+"${CMAKE_CURRENT_SOURCE_DIR}/lib/arm-linux-gnueabihf/libmali-midgard-t76x-r13p0-r0p0-wayland.so"
+DESTINATION "${CMAKE_INSTALL_LIBDIR}")
+
+INSTALL(FILES
 "${CMAKE_CURRENT_SOURCE_DIR}/lib/arm-linux-gnueabihf/libmali-utgard-450-r7p0.so"
 DESTINATION "${CMAKE_INSTALL_LIBDIR}")
 
